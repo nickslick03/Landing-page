@@ -9,7 +9,7 @@ body{
     flex-direction: column;
     align-items: center;
     margin:0px;
-    gap:150px;
+    gap:160px;
 }
 
 .topbar{
@@ -24,11 +24,11 @@ header{
     font-weight: bolder;
     align-self: center;
 }
-.list{
+.topbar-list{
     list-style:none;
     display:flex;
-    gap:40px;
     font-size:18px;
+    gap:40px;
 }
 a{
     text-decoration:none;
@@ -74,4 +74,42 @@ button,
 img{
     width:auto;
     height:inherit;
+}
+
+.info{
+    width:100vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.info-header{
+    font-size: 36px; 
+    font-weight:bolder; 
+    color: #1F2937;
+    padding:50px;
+}
+.info-container{
+    display:flex;
+    list-style:none;
+    font-size:18px;
+    padding:0;
+    gap:80px;
+}
+
+.info-list{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
+    width:180px;
+    gap:10px;
+}
+
+.info-box{
+    height:180px;
+    width:180px;
+    border: 4px solid #3882F6;
+    border-radius:20px;
 }
