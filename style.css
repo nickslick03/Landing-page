@@ -16,7 +16,7 @@ body{
     color:white;
     justify-content: space-between;
     width:75vw;
-    height:5vh;
+    height:50px;
 }
 header{
     font-size:24px;
@@ -45,8 +45,7 @@ a:hover{
     display:flex;
     width:75vw;
     color:white;
-    height:50vh;
-    padding: 22.5vh;
+    height:800px;
     align-items:center;
 }
 
@@ -92,7 +91,7 @@ img{
 
 .info-container{
     width:100vw;
-    height:70vh;
+    height:600px;
     padding-bottom:10vh;
     background-color: white;
     display: flex;
@@ -132,7 +131,7 @@ img{
     display:flex;
     flex-flow:column wrap;
     width:100vw;
-    height:50vh;
+    height:400px;
     background-color:#E5E7Eb;
     justify-content:center;
 }
@@ -155,7 +154,7 @@ img{
 
 .signup-container{
     width:100vw;
-    height:40vh;
+    height:300px;
     background-color: white;
     display: flex;
     justify-content:center;
@@ -165,7 +164,7 @@ img{
     background-color:#3882F6;
     border-radius:10px;
     width:75vw;
-    height:20vh;
+    height:150px;
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -189,6 +188,6 @@ img{
     display:flex;
     flex-direction:column;
     justify-content:center;
-    height:10vh;
+    height:100px;
     color:white;
 }
