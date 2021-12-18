@@ -1,5 +1,5 @@
 *{
-    border:sold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 
@@ -62,7 +62,7 @@ h1{
     margin:inherit;
 }
 p{
-    font-size:24px;
+    font-size:20px;
     color:#E5E7EB;
     margin:inherit;
 }
@@ -108,7 +108,7 @@ img{
 .info-subcontainer{
     display:flex;
     list-style:none;
-    font-size:18px;
+    font-size:15px;
     padding:0;
     gap:80px;
 }
@@ -170,7 +170,7 @@ img{
     align-items:center;
 }
 .signup-left{
-    font-size: 24px;
+    font-size: 20px;
     color: #F9FAF8;
     margin-left:50px;
     width:30vw;
